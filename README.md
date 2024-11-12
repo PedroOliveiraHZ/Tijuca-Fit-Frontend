@@ -1,82 +1,40 @@
-# Getting Started with Create React App
+# Tijuca-Fit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tijuca-Fit 🏋️‍♂️
 
-## Available Scripts
+**Tijuca-Fit** é um site de academia desenvolvido durante o estágio na Tijuca Alimentos. Este projeto tem como objetivo oferecer uma plataforma completa para acompanhamento de treinos, saúde e conquistas dos usuários.
 
-In the project directory, you can run:
+## Funcionalidades 🚀
 
-### `yarn start`
+- **Login e Cadastro**: Acesso personalizado para cada usuário, com sistema de autenticação.
+- **Cálculo de IMC e Gráficos**: Calcule seu IMC e visualize seu progresso de saúde com gráficos interativos.
+- **Conquistas**: Desbloqueie conquistas e acompanhe seu progresso na plataforma.
+- **Recordes**: Armazene e acompanhe seus recordes pessoais.
+- **Sequência de Dias**: Registre e acompanhe a frequência de seus treinos para manter a consistência.
+- **Fichas de Treino Personalizadas**: Crie e gerencie fichas de treino adaptadas às suas necessidades.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas 🛠️
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js para criação de uma interface interativa e responsiva.
+- **Backend**: Node.js e Express.js para construção da API e gerenciamento de dados.
+- **Banco de Dados**: MySQL para armazenamento de informações do usuário e histórico de treinos.
+- **Autenticação**: JWT para gerenciamento seguro de login e sessões.
+- **Visualização de Dados**: Google Charts para gráficos de IMC e progresso.
 
-<<<<<<< HEAD
-### `npm test`
-=======
-### `yarn test`
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-<<<<<<< HEAD
-### `npm run build`
-=======
-### `yarn build`
->>>>>>> ba04d4ae3f556f011052897895d57984364e4a0f
+## Estrutura do Projeto 📂
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ├── public                    # Arquivos estáticos
+    ├── src
+    │   ├── components            # Componentes React reutilizáveis
+    │   ├── pages                 # Páginas principais do site
+    │   ├── services              # Configuração de API e integração com backend
+    │   ├── utils                 # Funções auxiliares e lógica de cálculo de IMC
+    ├── server                    # Código do servidor backend
+    └── README.md                 # Documentação do projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalação e Configuração ⚙️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-<<<<<<< HEAD
-### `npm run eject`
-=======
-### `yarn eject`
->>>>>>> ba04d4ae3f556f011052897895d57984364e4a0f
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-<<<<<<< HEAD
-### `npm run build` fails to minify
-=======
-### `yarn build` fails to minify
->>>>>>> ba04d4ae3f556f011052897895d57984364e4a0f
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/tijuca-fit.git
+   cd tijuca-fit
